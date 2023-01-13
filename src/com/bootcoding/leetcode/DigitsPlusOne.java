@@ -22,7 +22,7 @@ public class DigitsPlusOne {
             System.out.println(result[i]);
         }
     }
-}
 
+}
 
 
