@@ -1,4 +1,4 @@
-package com.bootcoding.java;
+package com.bootcoding.assignments.java;
 
 public class Arguments {
     public static boolean getReturnValue(int a, int b){

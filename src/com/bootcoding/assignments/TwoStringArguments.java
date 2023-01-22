@@ -1,4 +1,4 @@
-package com.bootcoding.java;
+package com.bootcoding.assignments.java;
 
 public class TwoStringArguments {
         public static void main(String[] args) {
