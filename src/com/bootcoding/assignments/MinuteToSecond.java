@@ -1,4 +1,4 @@
-package com.bootcoding.assignments.java;
+package com.bootcoding.java;
 
 public class MinuteToSecond {
     public static int convertToSeconds(int minutes){

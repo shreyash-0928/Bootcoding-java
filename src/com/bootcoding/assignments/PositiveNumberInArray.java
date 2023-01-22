@@ -1,4 +1,4 @@
-package com.bootcoding.assignments.java;
+package com.bootcoding.java;
 
 public class PositiveNumberInArray {
     public static void main(String[]args){

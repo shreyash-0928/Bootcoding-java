@@ -1,4 +1,4 @@
-package com.bootcoding.assignments.java;
+package com.bootcoding.java;
 
 public class ProfitableGamble {
     public static void main(String[]args){
