@@ -24,10 +24,10 @@ public class ScannerStringDemo {
 }
 
 
-//PrintEven
+//PrintEven *
 //PrintOdd
-//printMinElemenet
-//PrintMaxElement
+//printMinElemenet *
+//PrintMaxElement *
 //PrintPalindrom
 //PrintArmstrong
 //PrintPrimeNumber
