@@ -2,7 +2,57 @@ package com.bootcoding.java.OOPs;
 
 public class Appliation {
     public static void main(String[] args) {
-        // How to create object - syntax of object creation
+        Duster duster = new Duster();
+
+        duster.Price = 50.0;
+        duster.Shape = "Rectangle";
+        duster.features = "The foam employed is of hard type which has high resistance to water absorption compared with soft foam.";
+
+        duster.print();
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /*public static void main(String[] args) {
+
+        Cycle cycle = new Cycle();
+        cycle.wheelType = " 2 wheeler ";
+        cycle.model = "Hero";
+        cycle.color = "Red";
+        cycle.topSpeed = 30.0;
+
+        cycle.print();
+    }*/
+
+
+
+
+
+
+    /*public static void main(String[] args) {
+
+        Box box = new Box();
+        box.length = 7.5;
+        box.breadth = 2.5;
+        box.height = 5.5;
+
+        box.print();
+    }*/
+
+}
+        /*// How to create object - syntax of object creation
         // ClassName objectName = new ClassName();
 
         //Object = Marker
@@ -75,4 +125,4 @@ public class Appliation {
 
         cricket.print();
     }
-}
+}*/
