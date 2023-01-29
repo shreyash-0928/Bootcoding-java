@@ -1,6 +1,6 @@
 package com.bootcoding.assignments;
 
-public class NumberPattern {
+public class RightAngledNumberPattern {
     public static void NumberRightTriangle(int n) {
         int i,j;
         for(i = 1; i <= n; i++) {
