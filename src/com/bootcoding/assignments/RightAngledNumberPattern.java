@@ -1,7 +1,7 @@
 package com.bootcoding.assignments;
 
 public class RightAngledNumberPattern {
-    public static void NumberRightTriangle(int n) {
+    public static void NumberRightTrianglePattern(int n) {
         int i,j;
         for(i = 1; i <= n; i++) {
             for(j = 1; j < i; j++) {
@@ -13,7 +13,7 @@ public class RightAngledNumberPattern {
 
     public static void main(String[] args) {
         int n = 6;
-        NumberRightTriangle(n);
+        NumberRightTrianglePattern(n);
 
     }
 }
