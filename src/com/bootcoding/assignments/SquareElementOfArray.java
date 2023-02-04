@@ -25,4 +25,4 @@ public class SquareElementOfArray {
 //WAM to return negative element array from given array
 // for ex- [10,-3,20,-40] -> [-3,-40]
 //WAM to return positive element array from given array
-//for ex- [10,-3,20,-40] -> [10,20]
+//for ex- [10,-3,20,-40] - [10,20]
