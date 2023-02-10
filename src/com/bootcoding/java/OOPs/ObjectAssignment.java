@@ -9,7 +9,7 @@ public class ObjectAssignment {
         System.out.println("Value of A : " + a);
         System.out.println("Value of B : " + b);
 
-        //ADT - Abstract data type (Object)
+        //ADT - Abstract Data Type (Object)
         Marker blueMarker = new Marker();
         Marker redMarker = blueMarker;    //redMarker <- BlueMarker (Reference)
         blueMarker.color = "Blue";
