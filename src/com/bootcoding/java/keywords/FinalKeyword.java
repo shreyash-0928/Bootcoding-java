@@ -1,6 +1,6 @@
 package com.bootcoding.java.keywords;
 
-import com.bootcoding.java.OOPs.Marker;
+import com.bootcoding.java.OOPs.object.Marker;
 
 public class FinalKeyword {
     public static void main(String[] args) {
