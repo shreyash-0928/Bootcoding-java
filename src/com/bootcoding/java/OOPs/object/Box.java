@@ -1,4 +1,4 @@
-package com.bootcoding.java.OOPs;
+package com.bootcoding.java.OOPs.object;
 
 public class Box {                        //Duster, Helmet, Cycle
 
