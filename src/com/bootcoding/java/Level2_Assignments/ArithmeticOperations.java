@@ -20,6 +20,6 @@ public class ArithmeticOperations {
         System.out.println("Subtraction of two numbers = " + sub);
         System.out.println("Multiplication of two numbers = " + mul);
         System.out.println("Division of two numbers = " + div);
-        System.out.println("Remender of two numbers = " + rem);
+        System.out.println("Remainder of two numbers = " + rem);
     }
 }
