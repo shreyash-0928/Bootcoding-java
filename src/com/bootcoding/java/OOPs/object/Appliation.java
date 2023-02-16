@@ -1,14 +1,15 @@
+/*
 package com.bootcoding.java.OOPs.object;
 
 public class Appliation {
     public static void main(String[] args) {
-        Duster duster = new Duster();
+        Door door = new Door();
+        door.height = 400;
+        door.width = 200;
+        door.isLocked = "Opened";
+        door.type = "Wooden Door";
+        door.color = "Brown";
 
-        duster.Price = 50.0;
-        duster.Shape = "Rectangle";
-        duster.features = "The foam employed is of hard type which has high resistance to water absorption compared with soft foam.";
-
-        duster.print();
 
 
 
@@ -25,7 +26,8 @@ public class Appliation {
 
 
 
-    /*public static void main(String[] args) {
+    */
+/*public static void main(String[] args) {
 
         Cycle cycle = new Cycle();
         cycle.wheelType = " 2 wheeler ";
@@ -34,14 +36,16 @@ public class Appliation {
         cycle.topSpeed = 30.0;
 
         cycle.print();
-    }*/
+    }*//*
 
 
 
 
 
 
-    /*public static void main(String[] args) {
+
+    */
+/*public static void main(String[] args) {
 
         Box box = new Box();
         box.length = 7.5;
@@ -49,10 +53,13 @@ public class Appliation {
         box.height = 5.5;
 
         box.print();
-    }*/
+    }*//*
+
 
 }
-        /*// How to create object - syntax of object creation
+        */
+/*//*
+/ How to create object - syntax of object creation
         // ClassName objectName = new ClassName();
 
         //Object = Marker
