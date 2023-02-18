@@ -1,14 +1,24 @@
 package com.bootcoding.leetcode;
 
 public class RunningSumOfArray {
-    public int[] getRunningSum(int[] nums){
-        int a[] = new int [nums.length];
-        for(int i = 0; i< nums.length; i++){
-            int sum = 0;
-            for(int j=0; j<=i; j++){
-                sum += sum;
-            }
+    public static int[] getRunningSum(int[] nums){
+        int i = 1;
+        while(i<nums.length)
+        {
+            nums[i] += nums[i-1];
+            i++;
         }
-        return a;
+        return nums;
     }
+
+    public static void main(String[] args) {
+        int[] nums = {1, 2, 3, 4, 5};
+        int[] runningSum = getRunningSum(nums);
+        for (int i = 0; i < runningSum.length; i++) {
+            System.out.print(runningSum[i] + " ");
+        }
+
+    }
+
 }
+
