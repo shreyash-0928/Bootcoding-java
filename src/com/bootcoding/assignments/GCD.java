@@ -1,24 +1,27 @@
 package com.bootcoding.assignments;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class GCD {
-    public static int findGCD(int[] arr) {
-        Arrays.sort(arr);
-        int smallest = arr[0];
-        int largest = arr[arr.length - 1];
-        return gcd(smallest, largest);
-    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n1 = sc.nextInt();
+        int n2 = sc.nextInt();
 
-    public static int gcd(int a, int b) {
-        if (b == 0) return a;
-        return gcd(b, a % b);
-    }
+        int on1 = n1;
+        int on2 = n2;
 
-    public static void main(String[] args){
-        int[] array  = {2,5,6,9,10};
-        int res = findGCD(array);
-        System.out.println(res);
+        while(n1 % n2 != 0)
+        {
+            int rem = n1 % n2;
+            n1 = n2;
+            n2 = rem;
 
+        }
+
+        int gcd = n2;
+        System.out.println(gcd);
+        
     }
 }
