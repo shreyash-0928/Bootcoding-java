@@ -1,4 +1,4 @@
-package com.bootcoding.assignments;
+package com.bootcoding.java.CommandLineArguments;
 
 import java.util.Scanner;
 
