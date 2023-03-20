@@ -1,4 +1,4 @@
-package com.bootcoding.assignments;
+package com.bootcoding.java.CommandLineArguments;
 
 public class Student {
     public static void main(String[] args) {
