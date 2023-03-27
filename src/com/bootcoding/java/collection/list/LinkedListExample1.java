@@ -6,13 +6,13 @@ import java.util.List;
 public class LinkedListExample1 {
     public static void main(String[] args) {
         List<String> list= new LinkedList<>();
-        list.add("Rashi");
-        list.add("Shruti");
-        list.add("Chinmayee");
-        list.add("Sharayu");
-        list.add("Neha");
-        list.add("Rashi");
-        list.add("Rashi");
+        list.add("Raju");
+        list.add("Rani");
+        list.add("Ravi");
+        list.add("Nilesh");
+        list.add("Raju");
+        list.add("Manish");
+        list.add("Suresh");
 
         //traditional loop
 //        for(int i=0;i< list.size();i++){
