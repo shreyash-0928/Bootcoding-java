@@ -1,4 +1,4 @@
-package com.bootcoding.java.OOPs.Abstract.Interface;
+package com.bootcoding.java.OOPs.Interface;
 
 class Demo {
     public static void main(String[] args) {
