@@ -1,4 +1,4 @@
-package com.bootcoding.java.OOPs.Abstract.Interface;
+package com.bootcoding.java.OOPs.Interface;
 
 public class Magic {
     public static void showMagic(Sim sim) {
