@@ -1,4 +1,4 @@
-package com.bootcoding.java.OOPs.Abstract.Interface;
+package com.bootcoding.java.OOPs.Interface;
 
 class Airtel implements Sim {
     public void inserted()
