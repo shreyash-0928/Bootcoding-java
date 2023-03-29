@@ -1,6 +1,6 @@
 package com.bootcoding.java.OOPs.object;
 
-public class ObjectAssignment {
+public class                                                                                                                                   ObjectAssignment {
     public static void main(String[] args) {
         // primitive data types
 
