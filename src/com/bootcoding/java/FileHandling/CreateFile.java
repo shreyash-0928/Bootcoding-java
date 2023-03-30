@@ -13,9 +13,8 @@ class CreateFile {
             } else {
                 System.out.println("File is already exist in the directory.");
             }
-        } catch (IOException exception) {
-            System.out.println("An unexpected error is occurred.");
-            exception.printStackTrace();
+        } catch (Exception e) {
+            System.out.println(e);
         }
     }
 }
