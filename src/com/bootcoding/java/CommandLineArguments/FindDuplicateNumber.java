@@ -12,7 +12,7 @@ public class FindDuplicateNumber {
             }
             map.put(arg, count +1);
         }
-    }
+      }
 }
 
 
