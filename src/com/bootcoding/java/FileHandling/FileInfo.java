@@ -15,7 +15,7 @@ public class FileInfo {
 
                 System.out.println("is File Writable : " + file.canWrite());
 
-                System.out.println("is File Readanle : " + file.canRead());
+                System.out.println("is File Readable : " + file.canRead());
 
                 System.out.println("The size of file in terms of bytes : " + file.length());
             }
