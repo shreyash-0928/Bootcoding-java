@@ -1,4 +1,4 @@
-package com.bootcoding.java.collection.map;
+package com.bootcoding.java.collection.set;
 
 public class Person {
 
