@@ -2,7 +2,7 @@ package com.bootcoding.leetcode;
 
 public class Palindrome {
     public static void main(String[] args) {
-        int x = 0;
+        int x = 121;
         System.out.println(isPalindrome(x));
 
 
