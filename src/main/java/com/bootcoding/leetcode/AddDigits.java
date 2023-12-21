@@ -8,4 +8,9 @@ public class AddDigits {
         }
         return addDigits(num/10 + num%10);
     }
+
+    public static void main(String[] args) {
+        int n = 234;
+        System.out.println(new AddDigits().addDigits(n));
+    }
 }
