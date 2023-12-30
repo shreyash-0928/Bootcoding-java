@@ -26,7 +26,7 @@
 //}
 //class MyThread
 //{
-//    public static void main(String args[])
+//    public static void Test(String args[])
 //    {
 //        newThread N1= new newThread("Raja");
 //        newThread N2= new newThread("Rani");
